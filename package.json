@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-workers-ai-gateway",
+  "version": "1.0.0",
+  "description": "100% Free Serverless OpenAI-Compatible API Gateway & Multi-Model AI Studio on Cloudflare Workers AI",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "workers-ai",
+    "llama3",
+    "deepseek-r1",
+    "ai-gateway",
+    "openai-compatible",
+    "serverless"
+  ],
+  "author": "Open Source Contributor",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
